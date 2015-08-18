@@ -15,7 +15,7 @@
 #include <cassert>
 //#include "blmvm.h"
 
-#define USE_HASH_MAP  // if you encounter errors with hash, try commenting out this line. (the program will be a bit slower, though)
+//#define USE_HASH_MAP  // if you encounter errors with hash, try commenting out this line. (the program will be a bit slower, though)
 #ifdef USE_HASH_MAP
 #include <ext/hash_map>
 #endif
